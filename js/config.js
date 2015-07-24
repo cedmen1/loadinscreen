@@ -13,7 +13,7 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "RepublicOfGamingRP";
+var l_serverName = "";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,13 +50,11 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/1.jpg",
-	"",
-	""
+	"backgrounds/images/1.jpg"
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 /*(Image-background only)
 Delay between background images changes
