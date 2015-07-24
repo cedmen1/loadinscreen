@@ -22,11 +22,11 @@ var neededFiles;
 var downloadedFiles = 0;
 
 function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode ) {
-	setGamemode(gamemode);
-	setMapname(mapname);
+	setGamemode(DarkRp);
+	setMapname(rp_downtown_v4c_v2);
 
 	if (!l_serverName && !l_serverImage) {
-		setServerName(servername);
+		setServerName(RepublicOfGamingRP);
 	}
 }
 
@@ -34,7 +34,7 @@ function DownloadingFile( fileName ) {
 	downloadedFiles++;
 	refreshProgress();
 
-	setStatus("Downloading files...");
+	setStatus(Téléchargement des fichiers...");
 }
 
 function SetStatusChanged( status ) {
